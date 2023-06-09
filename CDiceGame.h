@@ -1,6 +1,9 @@
 #ifndef CDICEGAME_H_
 #define CDICEGAME_H_
 
+#include <cstdlib>
+#include <ctime>
+
 class CDiceGame
 {
 private:
