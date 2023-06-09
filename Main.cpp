@@ -6,6 +6,13 @@ using namespace std;
 int main()
 {
 	int total;
+	string name;
+
+	cout << "What is your name?" << endl;
+
+	cin >> name;
+
+	cout << "Hello, " << name << "!" << endl;
 
 	CDiceGame d1;
 	CDiceGame d2;
@@ -23,11 +30,11 @@ int main()
 
 	if (total > 7)
 	{
-		cout << "You won!" << endl;
+		cout << name << " won!" << endl;
 	}
 	else
 	{
-		cout << "You lost" << endl;
+		cout << name << " lost" << endl;
 	}
 
 	return 0;
